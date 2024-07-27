@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 imageElement.remove();
                 window.location.href = "https://vtrnguyen.github.io/quality-earth/flowerforher/index.html";
                 break;
+            default:
+                return;
         }
 
         imageElement.src = imageUrl;
