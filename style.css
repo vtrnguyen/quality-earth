@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    /* background-color: rgb(221, 207, 188); */
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#earth-img {
+    width: 220px;
+    height: 200px;
+}
+
+#quality {
+    margin-top: 6px;
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+#quality:hover {
+    cursor: pointer;
+}
