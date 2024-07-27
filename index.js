@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             case 'earth-1080':
                 imageElement.remove();
-                window.location.href = "http://127.0.0.1:5500/flowerforher/index.html";
+                window.location.href = "https://vtrnguyen.github.io/quality-earth/flowerforher/index.html";
                 break;
         }
 
